@@ -1,2 +1,2 @@
 # ibmec_progoo
-Aulas de PROoo Victor Machado
+Aulas de PROGoo Victor Machado
