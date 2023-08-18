@@ -1,7 +1,7 @@
-
+package aula01;
 public class App{
  
-    public static void main(String[] args)throws Exception {
+    public static void main(String[] args) {
         /*
         Este eh um comentario 
         de bloco. Posso escrever varias linhas
