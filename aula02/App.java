@@ -22,5 +22,6 @@ public class App {
         System.out.println(num2);
 
         leitor.close();
+        System.out.println(msg.equals("oi"));
     }
 }
