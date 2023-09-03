@@ -1,4 +1,4 @@
-package ac2;
+package ACS.ac2;
 import java.util.Scanner;
 
 public class App {
