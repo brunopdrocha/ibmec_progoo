@@ -1,21 +1,23 @@
-
-public class Ebook   {
-    String TipoArquivo, nome, autor;
+public class Ebook extends LivroFisico   {
+    String TipoArquivo;
+    boolean reservado;
     
-    public Ebook(String nome,String autor,String TipoArquivo){
-        this.nome = nome;
-        this.autor = autor;
+    public Ebook(String nome, String autor ,String TipoArquivo){
+        super(nome, autor) ;
         this.TipoArquivo=TipoArquivo;
+        this.reservado = false;
     }
     
     public void reservar(){
-       // System.out.println("O livro "+nome+" foi reservado.");
+        reservado=true;    
+       System.out.println("O livro "+nome+" do autor "+autor+ "com tipo "+TipoArquivo+" foi reservado.");
         //reservar livro
     }
 
    
     public void cancelarReserva(){
-       // System.out.println("O livro "+nome+" foi cancelado a reserva.");
+    
+    System.out.println("O livro "+nome+"do autor "+autor+"com tipo "+TipoArquivo+" foi cancelado a reserva.");
     //Cancelar a reservar do livro
     }
 }
