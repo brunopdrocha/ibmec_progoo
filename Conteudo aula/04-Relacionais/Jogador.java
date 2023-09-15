@@ -1,3 +1,5 @@
+import entidades.pessoas.Pessoa;
+
 public class Jogador extends Pessoa {
     String time;
     String uniforme;
